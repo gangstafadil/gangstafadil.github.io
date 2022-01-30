@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="An amazing movie app: Moviester!">
+    <meta name="author" content="Moviester">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>Moviester App</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="images/1024.png">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Preloader -->
+	<div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- end of preloader -->
+    
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Leno</a> -->
+
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="index.html" style="text-decoration: none;">Moviester App</a>
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#features">FEATURES</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#preview">PREVIEW</a>
+                </li> -->
+
+                <!-- Dropdown Menu -->          
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" href="#details" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">DETAILS</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                       <!-- <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">TERMS CONDITIONS</span></a>
+                        <div class="dropdown-items-divide-hr"></div> -->
+                        <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">PRIVACY POLICY</span></a>
+                    </div>
+                </li>
+                <!-- end of dropdown menu -->
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+            <!-- <span class="nav-item social-icons">
+                <span class="fa-stack">
+                    <a href="#your-link">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-facebook-f fa-stack-1x"></i>
+                    </a>
+                </span>
+                <span class="fa-stack">
+                    <a href="#your-link">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-twitter fa-stack-1x"></i>
+                    </a>
+                </span>
+            </span> -->
+        </div>
+    </nav> <!-- end of navbar -->
+    <!-- end of navbar -->
+
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text-container">
+                            <h1><span id="js-rotating" style="color: #419f8c;">SEARCH, SAVE, SHARE</span> <br> MOVIE</h1>
+                            <p class="p-large">Moviester is a movie tracker app you can find, save and share movies or create your own movie posters. Download it today!</p>
+                            <a class="btn-solid-lg page-scroll" href="#your-link"><i class="fab fa-apple"></i>APP STORE</a>
+                            <a class="btn-solid-lg page-scroll" href="#your-link"><i class="fab fa-google-play"></i>PLAY STORE</a>
+                        </div>
+                    </div> <!-- end of col -->
+                    <div class="col-lg-6">
+                        <div class="image-container">
+                            <img class="img-fluid" src="images/two.png" alt="alternative">
+                        </div> <!-- end of image-container -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of header-content -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
+
+
+    
+   <!-- <div class="slider-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    
+                    <div class="slider-container">
+                        <div class="swiper-container card-slider">
+                            <div class="swiper-wrapper">
+                                
+                                
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="images/testimonial-1.jpg" alt="alternative">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">I just finished my trial period and was so amazed with the support and results that I purchased Leno.</p>
+                                            <p class="testimonial-author">Jude Thorn - Designer</p>
+                                        </div>
+                                    </div>
+                                </div> 
+                               
+        
+                                
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="images/testimonial-2.jpg" alt="alternative">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">I don't know how I managed to get work done without Leno. The speed of this application is amazing!</p>
+                                            <p class="testimonial-author">Roy Smith - Developer</p>
+                                        </div>
+                                    </div>        
+                                </div> 
+                               
+        
+                                
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="images/testimonial-3.jpg" alt="alternative">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">This app has the potential of becoming a mandatory tool in every marketer's day to day operations.</p>
+                                            <p class="testimonial-author">Marsha Singer - Marketer</p>
+                                        </div>
+                                    </div>        
+                                </div> 
+                               
+        
+                                
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="images/testimonial-4.jpg" alt="alternative">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">Searching for a great marketing automation app was difficult but thankfully I found Leno.</p>
+                                            <p class="testimonial-author">Tim Shaw - Designer</p>
+                                        </div>
+                                    </div>
+                                </div> 
+                                
+        
+                                
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="images/testimonial-5.jpg" alt="alternative">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">Leno's support team is amazing. They've helped me with some issues and I am so grateful to them.</p>
+                                            <p class="testimonial-author">Lindsay Spice - Marketer</p>
+                                        </div>
+                                    </div>        
+                                </div> 
+                                
+        
+                                
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="images/testimonial-6.jpg" alt="alternative">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">Who would have thought that Leno can provide such amazing results in just a few weeks of use</p>
+                                            <p class="testimonial-author">Ann Black - Developer</p>
+                                        </div>
+                                    </div>        
+                                </div> 
+                                
+                            
+                            </div> 
+        
+                            
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            
+        
+                        </div> 
+                    </div> 
+                    
+
+                </div> 
+            </div> 
+        </div> 
+    </div> -->
+    
+    
+
+    <!-- Features -->
+    <div id="features" class="tabs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>FEATURES</h2>
+                    <div class="p-heading p-large">Moviester is designed with very advanced features.</div>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+
+                <!-- Tabs Links -->
+                <ul class="nav nav-tabs" id="lenoTabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true"><i class="fas fa-film"></i>GET RECOMMENDATION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false"><i class="fas fa-binoculars"></i>SEE DETAILS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-tab-3" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false"><i class="fas fa-file-image"></i>CREATE POSTERS</a>
+                    </li>
+                </ul>
+                <!-- end of tabs links -->
+
+
+                <!-- Tabs Content-->
+                <div class="tab-content" id="lenoTabsContent">
+                    
+                    <!-- Tab -->
+                    <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
+                        <div class="container">
+                            <div class="row">
+                                
+                                <!-- Icon Cards Pane -->
+                                <div class="col-lg-4">
+                                    <div class="card left-pane first">
+                                        <div class="card-body">
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">By Genre</h4>
+                                                <p>Get movies according to your favorite genres.</p>
+                                            </div>
+                                            <div class="card-icon">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card left-pane">
+                                        <div class="card-body">
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">By Star</h4>
+                                                <p>Get movies according to your favorite stars.</p>
+                                            </div>
+                                            <div class="card-icon" style="color: #9f4141; background-color: #9f4141;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <!-- end of icon cards pane -->
+
+                                <!-- Image Pane -->
+                                <div class="col-lg-4">
+                                    <img class="img-fluid" src="images/3.png" alt="alternative">
+                                </div>
+                                <!-- end of image pane -->
+                                
+                                <!-- Icon Cards Pane -->
+                                <div class="col-lg-4">
+                                    <div class="card right-pane first">
+                                        <div class="card-body">
+                                            <div class="card-icon" style="background-color: #63869e;">
+                                                
+                                            </div>
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">By Director</h4>
+                                                <p>Get movies according to your favorite directors.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card right-pane">
+                                        <div class="card-body">
+                                            <div class="card-icon" style="background: linear-gradient(180deg, #63769E 0%, #419F8C 32.81%, #9F4141 68.23%, #161621 100%);">
+                                               
+                                            </div>
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">By All</h4>
+                                                <p>Get movies according to your favorite genres, stars and directors.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <!-- end of icon cards pane -->
+
+                            </div> <!-- end of row -->
+                        </div> <!-- end of container -->
+                    </div> <!-- end of tab-pane -->
+                    <!-- end of tab -->
+
+                    <!-- Tab -->
+                    <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
+                        <div class="container">
+                            <div class="row">
+
+                                <!-- Image Pane -->
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="images/13.png" alt="alternative">
+                                </div>
+                                <!-- end of image pane -->
+                                
+                                <!-- Text And Icon Cards Area -->
+                                <div class="col-md-8">
+                                    <div class="text-area">
+                                        <h3>Get movie details!</h3>
+                                        <p>See the summary of the movie.</p>
+                                    </div> <!-- end of text-area -->
+                                    
+                                    <div class="icon-cards-area">
+                                            <div class="card" >
+                                                <div class="card-icon" style="background-color: #5FC74F;">
+                                                    
+                                                </div>
+                                                <div class="card-body" style=>
+                                                    <h4 class="card-title">Famous Ratings</h4>
+                                                    <p>See IMDb and metascore ratings of movies.</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-icon" style="background-color: #E1B517;">
+                                                    
+                                                </div>
+                                                <div class="card-body" >
+                                                    <h4 class="card-title">Movie Summary</h4>
+                                                    <p>Get all information related to movie like genres, duration, release year, brief summary, directors and stars.</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-icon" style="background-color: #63869E;">
+                                                    
+                                                </div>
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Interact with movies</h4>
+                                                    <p>Add watchilst to watch later or like/dislike movie to get better recommandation.</p>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-icon" style="background-color: #909090;">
+                                                    
+                                                </div>
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Share Movies</h4>
+                                                    <p>Share your favorite movies with your friends on your instagram story or anywhere you want.</p>
+                                                </div>
+                                            </div>
+                                    </div> <!-- end of icon cards area -->
+                                </div> <!-- end of col-md-8 -->
+                                <!-- end of text and icon cards area -->
+
+                            </div> <!-- end of row -->
+                        </div> <!-- end of container -->
+                    </div> <!-- end of tab-pane -->
+                    <!-- end of tab -->
+
+                    <!-- Tab -->
+                    <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
+                        <div class="container">
+                            <div class="row">
+
+                                <!-- Text And Icon Cards Area -->
+                                <div class="col-md-8">
+                                    <div class="icon-cards-area">
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Create Your Own Poster</h4>
+                                                <p>Create your watchlists's or reviewlists' posters and share them on your instagram story or wherever you want.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-icon" style="background-color: #9f4141;">
+                                                
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Export Lists' Poster</h4>
+                                                <p>Export just your lists' poster and print them on your demand.</p>
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                    </div> <!-- end of icon cards area -->
+                                    
+                                </div> <!-- end of col-md-8 -->
+                                <!-- end of text and icon cards area -->
+
+                                <!-- Image Pane -->
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="images/9.png" alt="alternative">
+                                </div>
+                                <!-- end of image pane -->
+                                    
+                            </div> <!-- end of row -->
+                        </div> <!-- end of container -->
+                    </div><!-- end of tab-pane -->
+                    <!-- end of tab -->
+
+                </div> <!-- end of tab-content -->
+                <!-- end of tabs content -->
+
+            </div> <!-- end of row --> 
+        </div> <!-- end of container --> 
+    </div> <!-- end of tabs -->
+    <!-- end of features -->
+
+
+    
+   <!-- <div id="preview" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>PREVIEW</h2>
+                    <div class="p-heading p-large">Target the right customers for your business with the help of Leno's patented segmentation technology</div>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-lg-12">
+
+                    
+                    <div class="image-container">
+                        <div class="video-wrapper">
+                            <a class="popup-youtube" href="https://www.youtube.com/watch?v=fLCjQJCekTs" data-effect="fadeIn">
+                                <img class="img-fluid" src="images/video-frame.jpg" alt="alternative">
+                                <span class="video-play-button">
+                                    <span></span>
+                                </span>
+                            </a>
+                        </div> 
+                    </div> 
+                    
+
+                </div>
+            </div> 
+        </div> 
+    </div> 
+-->
+
+
+   <!-- 
+    <div id="details" class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="images/details-1-iphone.png" alt="alternative">
+                </div> 
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h3>Goals Setting</h3>
+                        <p>Leno can easily help you track your personal development evolution if you take the time to properly setup your goals at the beginning of the training process. Check out the details</p>
+                        <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-1">LIGHTBOX</a>
+                    </div>
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+    
+
+
+    
+    <div class="basic-3">
+        <div class="second">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text-container">
+                            <h3>Calendar Input</h3>
+                            <p>The calendar input function enables the user to setup training, meditation and relaxation sessions with ease. Just open the feature and start setting up your time as you desire</p>
+                            <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-2">LIGHTBOX</a>
+                        </div> 
+                    </div> 
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="images/details-2-iphone.png" alt="alternative">
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </div>   
+-->
+
+
+
+    
+
+
+
+    <!-- Screenshots -->
+    <div class="slider-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                    <!-- Image Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container image-slider">
+                            <div class="swiper-wrapper">
+                                
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/1.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/1.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="images/2.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/2.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="images/3.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/3.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="images/4.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/4.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="images/5.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/5.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="images/6.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/6.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="images/7.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/7.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="images/8.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/8.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="images/9.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/9.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="images/10.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/10.png" alt="alternative">
+                                    </a>
+                                </div><div class="swiper-slide">
+                                    <a href="images/11.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/11.png" alt="alternative">
+                                    </a>
+                                </div><div class="swiper-slide">
+                                    <a href="images/12.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/12.png" alt="alternative">
+                                    </a>
+                                </div><div class="swiper-slide">
+                                    <a href="images/13.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/13.png" alt="alternative">
+                                    </a>
+                                </div><div class="swiper-slide">
+                                    <a href="images/14.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/14.png" alt="alternative">
+                                    </a>
+                                </div>
+                                
+                            </div> <!-- end of swiper-wrapper -->
+
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <!-- end of add arrows -->
+
+                        </div> <!-- end of swiper-container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of image slider -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of slider-2 -->
+    <!-- end of screenshots -->
+
+
+    <!-- Download -->
+    <div class="basic-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xl-5">
+                    <div class="text-container">
+                        <h2>Download <span class="blue">Moviester App Now</span></h2>
+                       
+                        <a class="btn-solid-lg" href="#your-link"><i class="fab fa-apple"></i>APP STORE</a>
+                        <a class="btn-solid-lg" href="#your-link"><i class="fab fa-google-play"></i>PLAY STORE</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6 col-xl-7">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/three.png" alt="alternative">
+                    </div> <!-- end of img-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-4 -->
+    <!-- end of download -->
+
+
+    <!-- Statistics -->
+    <div class="counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                    <!-- Counter -->
+                    <div id="counter">
+                        <div class="cell">
+                            <div class="counter-value number-count" data-count="35595" style="display: flex; justify-content: center;">1</div>
+                            <p class="counter-info" style="display: flex; justify-content: center;">Movies</p>
+                        </div>
+                        <div class="cell">
+                            <div class="counter-value number-count" data-count="23" style="display: flex; justify-content: center;">1</div>
+                            <p class="counter-info" style="display: flex; justify-content: center;">Genres</p>
+                        </div>
+                        <div class="cell">
+                            <div class="counter-value number-count" data-count="8786" style="display: flex; justify-content: center;">1</div>
+                            <p class="counter-info" style="display: flex; justify-content: center;">Directors</p>
+                        </div>
+                        <!-- <div class="cell">
+                            <div class="counter-value number-count" data-count="127">1</div>
+                            <p class="counter-info">Case Studies</p>
+                        </div> -->
+                    </div>
+                    <!-- end of counter -->
+                    
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of counter -->
+    <!-- end of statistics -->
+
+<!--
+    
+    <div id="contact" class="form">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>CONTACT</h2>
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="address">Don't hesitate to give us a call or just use the contact form below</li>
+                        <li><i class="fas fa-map-marker-alt"></i>22 Innovative, San Francisco, CA 94043, US</li>
+                        <li><i class="fas fa-phone"></i><a class="blue" href="tel:003024630820">+81 720 2212</a></li>
+                        <li><i class="fas fa-envelope"></i><a class="blue" href="mailto:office@leno.com">office@leno.com</a></li>
+                    </ul>
+                </div> 
+            </div> 
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    
+                   
+                    <form id="contactForm" data-toggle="validator" data-focus="false">
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="cname" required>
+                            <label class="label-control" for="cname">Name</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control-input" id="cemail" required>
+                            <label class="label-control" for="cemail">Email</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control-textarea" id="cmessage" required></textarea>
+                            <label class="label-control" for="cmessage">Your message</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>I have read and agree to Leno's stated conditions in <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms Conditions</a> 
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="form-control-submit-button">SUBMIT MESSAGE</button>
+                        </div>
+                        <div class="form-message">
+                            <div id="cmsgSubmit" class="h3 text-center hidden"></div>
+                        </div>
+                    </form>
+                    
+
+                </div> 
+            </div> 
+        </div>
+    </div> 
+-->
+
+
+    <!-- Footer -->
+    <div class="footer" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-col">
+                        <h4>Contact</h4>
+                       <p>Email: <a href="mailto: app.moviester@gmail.com">app.moviester@gmail.com</a></p>
+                    </div>
+                </div> <!-- end of col -->
+                <div class="col-md-4">
+                    <div class="footer-col middle">
+                        <h4>Important Links</h4>
+                        <ul class="list-unstyled li-space-lg">
+                            <!-- <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body">Our business partners <a class="turquoise" href="#your-link">startupguide.com</a></div>
+                            </li>  -->
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body">Read our <a class="turquoise" href="privacy-policy.html">Privacy Policy</a></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!-- end of col -->
+                <div class="col-md-4">
+                    <div class="footer-col last">
+                        <h4>Social Media</h4>
+                       <!-- <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </a>
+                        </span> 
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-google-plus-g fa-stack-1x"></i>
+                            </a>
+                        </span> 
+                    <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    -->
+                        <span class="fa-stack">
+                            <a target="blank" href="https://www.instagram.com/moviesterapp/">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        
+                    </div> 
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright ©2022 <a href="https://moviester.com">Moviester</a></p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
+    	
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
+</html>
